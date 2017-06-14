@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "VerifyCode iOS SDK"
   s.description  = "iOS framework for VerifyCode Service"
   s.homepage     = 'http://dun.163.com/product/captcha?from=baiduP2_YZM_CP6307'
-  s.authors      = { 'skylinchen' => 'skylin_baiyi@163.com' }
+  s.authors      = { 'apksafe' => 'apksafe@163.com' }
   s.license      = { :type => 'Free', :text => "©2017 dun.163.com" }
   s.source       = { :http => "https://raw.githubusercontent.com/skylinchen/VerifyCode-iOS/master/Release/VerifyCode_iOS_1.0.3.zip" }
   s.requires_arc = true
