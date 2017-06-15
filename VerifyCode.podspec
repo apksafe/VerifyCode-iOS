@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'http://dun.163.com/product/captcha?from=baiduP2_YZM_CP6307'
   s.authors      = { 'apksafe' => 'apksafe@163.com' }
   s.license      = { :type => 'Free', :text => "©2017 dun.163.com" }
-  s.source       = { :http => "https://raw.githubusercontent.com/skylinchen/VerifyCode-iOS/master/Release/VerifyCode_iOS_1.0.3.zip" }
+  s.source       = { :http => "https://raw.githubusercontent.com/apksafe/VerifyCode-iOS/master/Release/VerifyCode_iOS_1.0.3.zip" }
   s.requires_arc = true
   s.platform     = :ios
   s.vendored_frameworks ='VerifyCode.framework'
