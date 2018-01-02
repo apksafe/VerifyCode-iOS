@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'VerifyCode'
-  s.version      = '2.0.3'
+  s.version      = '2.0.5'
   s.summary      = "VerifyCode iOS SDK"
   s.description  = "iOS framework for VerifyCode Service"
   s.homepage     = 'http://dun.163.com/product/captcha'
