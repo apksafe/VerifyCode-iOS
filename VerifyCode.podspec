@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
   s.homepage     = 'http://dun.163.com/product/captcha'
   s.authors      = { 'apksafe' => 'apksafe@163.com' }
   s.license      = { :type => 'Free', :text => "©2017 dun.163.com" }
-  s.source       = { :http => "https://raw.githubusercontent.com/apksafe/VerifyCode-iOS/master/Release/VerifyCode_iOS_2.0.5.zip" }
+  s.source       = { :http => "https://github.com/apksafe/VerifyCode-iOS.git" }
   s.requires_arc = true
   s.platform     = :ios
-  s.vendored_frameworks ='VerifyCode.framework'
+  s.vendored_frameworks ='Release/VerifyCode_iOS_2.0.5/VerifyCode.framework'
   s.resource     = "Resources/NTESVerifyCodeResources.bundle"
   s.ios.deployment_target = "7.0"
   s.frameworks = 'SystemConfiguration','WebKit','JavaScriptCore'
