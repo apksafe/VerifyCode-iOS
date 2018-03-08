@@ -38,7 +38,7 @@ if [[ $input == 'yes' ]]; then
 		echo "-----------------------"
 		echo "lint success"
 		echo "-----------------------"
-		pod repo push $podspecName --verbose --allow-warnings  --use-libraries
+		pod trunk push $podspecName --verbose --allow-warnings  --use-libraries
 	else
 		echo "-----------------------"
 		echo "lint fail"
